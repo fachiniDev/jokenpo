@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="jogo">
+
+            <h1>Jokenpo</h1>
+        <div>
+            <button onclick="jogar('Pedra')">👊</button>
+            <button  onclick="jogar('Papel')">✋</button>
+            <button  onclick="jogar('Tesoura')">✌️</button>
+        </div>
+
+        <p id="result"></p>
+        <p>Computador jogou: <span id="computador"></span></p>
+
+        <div class="placar">
+
+            <table>
+                <h3>Placar</h3>
+                <th>Computer</th>
+                <th>Usuário</th>
+            <tr>
+                <td>
+                    <span id="placarComputador"></span>
+                </td>
+                <td>
+                    <span id="placarUsuario"></span>    
+                </td>
+            </tr>
+            </table>
+        </div>
+
+    </div>
+    
+    
+
+
+<script src="script.js"></script>
+</body>
+</html>
